@@ -25,15 +25,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 scaler = StandardScaler()
 
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.transform(X_test)
-
-model = MLPClassifier(
-    hidden_layer_sizes=(128, 64),
-    activation='relu',
-    max_iter=500,
-    random_state=42
-)
+## TODO: Model selection
 
 model.fit(X_train, y_train)
 accuracy = model.score(X_test, y_test)
