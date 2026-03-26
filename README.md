@@ -20,7 +20,7 @@ Control Spotify using hand gestures detected through your webcam. Built with Med
 **1. Clone the repository**
  
 ```bash
-git clone https://github.com/your-username/SpotifyController.git
+git clone [https://github.com/RosarioGLara/SpotifyController.git]
 cd SpotifyController
 ```
  
