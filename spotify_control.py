@@ -4,8 +4,8 @@ from spotipy.oauth2 import SpotifyOAuth
 class SpotifyController:
      def __init__(self):     
           self.sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-          client_id="14b213ead46141e3bd3e39a94dc51638",
-          client_secret="b74266fe70d04bd1a4af995b4e3723e1",
+          client_id="ADD YOUR API KEY HERE",
+          client_secret="ADD YOUR API KEY HERE",
           redirect_uri="http://127.0.0.1:8888/callback",
           scope="user-read-playback-state,user-modify-playback-state"
           ))
